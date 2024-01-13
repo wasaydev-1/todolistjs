@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: grey;
+}
+
+h1.main {
+  text-align: center;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+}
+
+button.remove {
+  display: block;
+  margin: 12px auto;
+  padding: 12px;
+  background-color: #cf2b3c;
+  color: #fff;
+  border: black;
+  cursor: pointer;
+}
+
+button.remove:hover {
+  background-color: #c82333;
+}
+
+.todos {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: rgba(210, 61, 81, 0.368);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form.addtodo {
+  text-align: center;
+}
+
+form.addtodo input {
+  padding: 10px;
+}
+
+form.addtodo button {
+  padding: 10px;
+  background-color: #269941;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form.addtodo button:hover {
+  background-color: #2b9a43;
+}
